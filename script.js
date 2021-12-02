@@ -4,7 +4,6 @@ function showVet(vet){
     document.getElementById('second-num').innerHTML = vet[1]
     document.getElementById('third-num').innerHTML = vet[2]
     document.getElementById('fourth-num').innerHTML = vet[3]
-
 }
 
 function reverseOrder(){
@@ -13,7 +12,6 @@ function reverseOrder(){
     vet.push(document.getElementById('vetor-num2').value)
     vet.push(document.getElementById('vetor-num3').value)
     vet.push(document.getElementById('vetor-num4').value)
-
 
     let veti = [vet.length]
     for(let i = 0; i < vet.length; i++){
@@ -28,7 +26,7 @@ function ascendingOrder(){
     vet.push(document.getElementById('vetor-num2').value)
     vet.push(document.getElementById('vetor-num3').value)
     vet.push(document.getElementById('vetor-num4').value)
-s
+    
     let num
     for(let i = 0; i < vet.length; i++){
         for(let j = i; j < vet.length; j++){ 

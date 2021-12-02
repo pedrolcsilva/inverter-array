@@ -25,14 +25,12 @@ button {
 button:hover{
     opacity: 0.8;
 }
-
 div {
     display: flex;
     justify-content: center;
     column-gap: 25px;
     margin-bottom: 25px;
 }
-
 div div{
     background-color: rgb(13, 158, 8);
     color: white;
