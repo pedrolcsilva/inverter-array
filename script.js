@@ -28,12 +28,12 @@ function ascendingOrder(){
     vet.push(document.getElementById('vetor-num4').value)
     
     let num
-    for(let i = 0; i < vet.length; i++){
-        for(let j = i; j < vet.length; j++){ 
-            if(vet[j] < vet[i]){
+    for(var i = 0; i < vet.length; i++){
+        for(var j = i; j < vet.length; j++){ 
+            if(vet[i] >= vet[j]){
                 num = vet[i]
-                vet[i] = vet[j]
-                vet[j] = num
+                vet[i] = parseInt(vet[j])
+                vet[j] = parseInt(num)
             }
         }
     }
